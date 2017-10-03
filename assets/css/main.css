@@ -1,0 +1,107 @@
+
+
+body {
+	font-family: "Trebuchet MS";
+	background-color: white;
+	background-image: url("http://i.imgur.com/vojBdN3.png");
+	background-repeat: repeat;
+	background-attachment: fixed;
+
+	
+}
+
+.main{
+	width: 635px;
+	background-color: peachpuff;
+	border:0px solid lightsalmon;
+	border-width:0px 15px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+	
+#logo {
+	-webkit-transition: background-color 0s ease-out;
+	-webkit-transition: color 0s ease-out;
+	margin-top: auto;
+	color: papayawhip;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 300%;
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	line-height: 250px;
+	background-color: lightsalmon;
+}
+#logo:hover{
+	background-color: #ffb394;
+	-webkit-transition: background-color 0s ease-out;
+}
+
+
+
+
+.navbar{
+
+	font-weight: bold;
+	border:1px solid #ce8162;
+    border-width:1px 0px;
+    width: 500px;
+    margin-left: auto;
+    text-align: center;
+   	margin-right: auto
+}
+
+.navbar li{
+    display:inline;
+}
+.navbar a{
+	-webkit-transition: background-color 0s ease-out;
+	-webkit-transition: color 0s ease-out;
+    display:inline-block;
+    color: #ce8162;
+    padding: 10px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.navbar a:hover{
+	background-color: #ce8162;
+	-webkit-transition: background-color 0s ease-out;
+	color: peachpuff;
+	-webkit-transition: colorr 0s ease-out;
+
+}
+
+
+
+#content{
+    color: #ce8162;
+}
+
+#content p {
+	color: #b77357;
+    width: calc(10px + 83.5%);
+    margin-left: auto;
+   	margin-right: auto
+}
+
+#content .media{
+   
+    width: 500px;
+    margin-left: auto;
+   	margin-right: auto
+
+}
+
+footer{
+	color: #b77357;
+	position: fixed;
+	top: 97%;
+}
